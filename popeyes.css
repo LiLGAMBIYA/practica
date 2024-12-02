@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: 'noto sans';
+}
+nav.enlaces a{
+    text-decoration: none;
+    align-items: flex-start;
+    color: black;
+}
+nav.enlaces ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+div.logo img {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+nav.enlaces2 ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+nav.enlaces2 a.iniciasesion{
+    text-decoration: none;
+    border-width:1px;
+    border-style: solid;
+    border-color: orangered;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    color: black;
+}
+nav.enlaces2 a{
+    text-decoration: none;
+}
+div.omarmontes img{
+    width: 500px;
+    justify-content: flex-end;
+    display: flex;
+}
+div.papollo p{
+    color: black;
+    align-items: flex-end;
+    justify-content: flex start;
+}
+nav.enlaces2 img{
+    width: 100px;
+}
+img.logoclub{
+    width: 300px;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.redes ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.redes ul li a img {
+    width: 30px;
+    transition: transform 0.2s;
+}
+
+.redes ul li a img:hover {
+    transform: scale(1.2);
+}
+section.comida article{
+    border-width:1px;
+    border-style: solid;
+    border-color: orangered;
+    margin: auto;
+    padding: 10px;
+}
+section.comida article img{
+    width: 200px;
+}
+div.omarmontes{
+    justify-content: flex-end;
+    align-items: center;
+}
+div.pasos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    padding: 10px;
+    flex-direction: column;
+}
+section.novedades{
+    flex-direction: row;
+    display: flex;
+}
+.pasos {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.pasos div {
+    text-align: center;
+}
+.pasos h4 {
+    color: #f26522;
+    margin-bottom: 5px;
+}
+.descargaya {
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+.descarga a img {
+    max-width: 150px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.descarga a img:hover {
+    transform: scale(1.1);
+}
+.fondo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffe3d4;
+    padding: 20px;
+    gap: 20px;
+}
+.papollo {
+    max-width: 50%;
+}
+.papollo h1 {
+    font-size: 32px;
+    color: #f26522;
+}
+.papollo p {
+    font-size: 18px;
+    color: #555;
+}
+.omarmontes img {
+    max-width: 45%;
+    height: auto;
+    border-radius: 10px;
+}
+.novedades {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #ffffff;
+    gap: 20px;
+}
+.novedades article {
+    text-align: center;
+    background-color: #fff3e0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+.novedades article img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.novedades h4 {
+    font-size: 20px;
+    color: #f26522;
+}
+.novedades p {
+    font-size: 16px;
+    color: #555;
+}
+.club {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+.club img {
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+.club p {
+    font-size: 18px;
+    color: #333;
+}
+.domicilio {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+}
+.domicilio .pide {
+    margin-bottom: 20px;
+}
+.domicilio img.telefono {
+    max-width: 200px;
+    height: auto;
+    margin: 10px 0;
+}
+.descarga a img {
+    max-width: 150px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.descarga a img:hover {
+    transform: scale(1.1);
+}
+.club h2{
+    justify-content: center;
+}
+.inicioses {
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.inicioses h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+.inicioses input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+}
+.inicioses a{
+    color: #f26522;
+    text-decoration: none;
+}
+.registrate {
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.registrate h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+.registrate input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+}
+.comida {
+    text-align: center;
+}
+.carta {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #cc0000;
+    margin-bottom: 1rem;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 2rem 0;
+}.menu2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 2rem 0;
+} .menu3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 2rem 0;
+} 
+.menu4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+.menu article, .menu2 article, .menu3 article, .menu4 article {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    flex: 1 1 calc(33.333% - 1.5rem); 
+    max-width: calc(33.333% - 1.5rem);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 1rem;
+}
+.menu article img, .menu2 article img, .menu3 article img, .menu4 article img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+.menu article h3, .menu2 article h3, .menu3 article h3, .menu4 article h3 {
+    font-size: 1.2rem;
+    color: #cc0000;
+    margin-bottom: 0.5rem;
+}
+.menu article p, .menu2 article p, .menu3 article p, .menu4 article p {
+    font-size: 1rem;
+    color: #333;
+}
+section.inicioclub {
+    padding: 3rem;
+    background-image: url('https://eu-west-3-144807065118-prod-plk-fz.s3.eu-west-3.amazonaws.com/en-ES/popeyes-club/2024/march/assets/img-club/hero-bg.png');
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+.cabeceraclub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+}
+.cabeceraclub h2:nth-child(2) {
+    position: relative;
+    z-index: 1;
+}
+.cabeceraclub img.logoclub {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    max-width: 150px;
+    width: auto;
+    height: auto;
+}
+.cabeceraclub img.movil {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    max-width: 250px;
+    height: auto;
+    z-index: 2;
+}
+.pasos {
+    text-align: left;
+    padding: 2rem;
+}
+.pasos div {
+    margin-bottom: 1rem;
+}
+.pasos div h4 {
+    font-size: 1.2rem;
+    color: #cc0000;
+}
+.pasos div p {
+    margin-top: 0.5rem;
+}
+.restaurantes {
+    text-align: center;
+}
+.restaurantes h2 {
+    font-size: 2rem;
+    color: #cc0000;
+    margin-bottom: 2rem;
+}
+.listado {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.listado article {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    width: calc(33.333% - 1.5rem); /* 3 columns */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+.listado article h3 {
+    font-size: 1.5rem;
+    color: #cc0000;
+    margin-bottom: 1rem;
+}
+.listado article p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+.fute{
+    padding: 10px;
+    margin: auto;
+}
